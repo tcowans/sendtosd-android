@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+        package="ru.gelin.android.sendtosd"
+        android:versionCode="19"
+        android:versionName="0.3.5-alpha1">
+    
+    <application android:icon="@drawable/icon" android:label="@string/app_name"
+            android:debuggable="true">
+
+        <activity android:name=".SendDispatcherActivity"
+                android:label="@string/sd_card">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="*/*"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND_MULTIPLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="*/*"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".SendActivity"
+                android:label="@string/sd_card">
+        </activity>
+        
+        <activity android:name=".SendMultipleActivity"
+                android:label="@string/sd_card">
+        </activity>
+        
+        <activity android:name=".PreferencesActivity"
+                  android:label="@string/app_preferences">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+    
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    
+    <uses-sdk android:minSdkVersion="3" android:targetSdkVersion="4"/>
+    <supports-screens/>
+
+</manifest> 
