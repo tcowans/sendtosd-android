@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Отправка на SD карту</string>
+    <string name="sd_card">SD карта</string>
+    <string name="files_title">{0} {1,choice,0#файл|1#файла|2#файлов}</string>
+    <string name="unsupported_intent">Невозможно произвести отправку</string>
+    <string name="unsupported_file">Невозможно отправить этот файл</string>
+    <string name="unsupported_files">Невозможно отправить эти файлы</string>
+    <string name="no_files">Нет файлов для отправки</string>
+    <string name="copy_here">Скопировать сюда</string>
+    <string name="move_here">Переместить сюда</string>
+    <string name="folders">Папки</string>
+    <string name="no_sd_card">Пожалуйста, подключите SD карту</string>
+    <string name="copy_file">Скопировать файл</string>
+    <string name="move_file">Переместить файл</string>
+    <string name="file_is_copied">Файл скопирован</string>
+    <string name="file_is_moved">Файл перемещен</string>
+    <string name="file_is_not_copied">Не удалось скопировать файл</string>
+    <string name="file_is_not_moved">Не удалось переместить файл</string>
+    <string name="file_is_not_deleted">Файл скопирован. Не удалось удалить оригинальный файл.</string>
+    <string name="files_are_copied">{0} {1,choice,0#файл был скопирован|1#файла были скопированы|2#файлов было скопировано}</string>
+    <string name="files_are_moved">{0} {1,choice,0#файл был перемещен|1#файла были перемещены|2#файлов было перемещено}</string>
+    <string name="files_are_only_copied">{0} {1,choice,0#файл был только скопирован|1#файла были только скопированы|2#файлов было только скопировано}</string>
+    <string name="errors_appeared">{1,choice,0#Произошла {0} ошибка|1#Произошли {0} ошибки|2#Произошло {0} ошибок}</string>
+    <string name="preferences">Настройки</string>
+    <string name="app_preferences">Настройки отправки на SD карту</string>
+    <string name="how_to_use">Как пользоваться</string>
+    <string name="how_to_use_1_1">Это не то приложение, которое запускается как обычно. Его не видно в списке установленных приложений.</string>
+    <string name="how_to_use_1_2">Эта программа добавляет новый пункт в меню Отправить или Поделиться других приложений.</string>
+    <string name="how_to_use_1_3">Попробуйте, к примеру, отправить фотографию из Галереи (или Фотоальбома), как вы это обычно делаете, отправляя фотографии по почте. Вы увидите новый пункт \"SD карта\" в списке возможных получателей фотографии.</string>
+    <string name="how_to_use_2_0">Шаг за шагом:</string>
+    <string name="how_to_use_2_1">* Выберите пункт меню \"Отправить\" или \"Поделиться\" в любом приложении</string>
+    <string name="how_to_use_2_2">* Выберите пункт \"SD карта\"</string>
+    <string name="how_to_use_2_3">* Выберите папку на карте</string>
+    <string name="how_to_use_2_4">* Нажмите \"Скопировать сюда\"</string>
+    <string name="initial_folder">Начальная папка</string>
+    <string name="sd_card_root">Корень SD карты</string>
+    <string name="last_folder">Последняя папка</string>
+    <string name="last_folders">Последние папки</string>
+    <string name="show_last_folders">Показывать последние папки</string>
+    <string name="last_folders_number">Количество последних папок</string>
+    <string name="show_last_folders_number">Показывать {0} {0,choice,1#последнюю папку|1&lt;последних папки|4&lt;последних папок}</string>
+    <string name="new_folder">Новая папка</string>
+    <string name="create_folder">Создать папку</string>
+    <string name="folder_created">Папка создана</string>
+    <string name="folder_not_created">Не удалось создать папку</string>
+    <string name="choose_file_name_menu">Указать имя файла</string>
+    <string name="choose_file_name">Укажите имя файла</string>
+    <string name="please_wait">Подождите, пожалуйста...</string>
+    <string name="copying">Идет копирование...</string>
+    <string name="moving">Идет перемещение...</string>
+    <string name="b_progress" formatted="false">%1.0f/%1.0f б</string>
+    <string name="kb_progress" formatted="false">%1.1f/%1.1f Кб</string>
+    <string name="mb_progress" formatted="false">%1.1f/%1.1f Мб</string>
+    <string name="donate">Поддержать разработчика</string>
+    <string name="buy_donate_version">Купить платную версию приложения</string>
+    <string name="donate_with_moneybookers">Подарите $1 через moneybookers</string>
+    <string name="donate_summary">Подарите $1 через Android Market</string>
+    <string name="donate_thanks">Спасибо!</string>
+    <string name="view_type">Внешний вид</string>
+    <string name="full_screen_view">На весь экран</string>
+    <string name="dialog_view">В диалоговом окне</string>
+</resources>

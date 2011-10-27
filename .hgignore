@@ -1,0 +1,9 @@
+syntax: glob
+bin/*
+gen/*
+tmp/*
+.settings/*
+local.properties
+build.properties
+upload.credentials.properties
+glob:ant.properties
